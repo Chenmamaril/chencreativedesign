@@ -12,16 +12,17 @@
 }
 
 body {
-    font-family: 'hussar';
-    background-color: #fffbfc;
+    background-color: #fff;
     margin: 0;
-    overflow: hidden;
     overflow-y: auto;
+    overflow-x: unset;
     color: #08283c;
     font-size: 1em;
     left: 0;
     position: relative;
     padding: 0;
+    height: 100%;
+   
 }
 
 html {
@@ -30,13 +31,15 @@ html {
     -ms-text-size-adjust: 100%;
     -ms-overflow-style: scrollbar;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    overflow-x: scroll;
+    overflow-x: hidden;
   }
   
 .container {
-    margin: 0 auto;
+    margin: 60px auto;
     padding-right: 15px;
     padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 
